@@ -1,0 +1,184 @@
+/* fonts: 
+Montserrat Regular
+font-family: montserrat, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Montserrat Light
+font-family: montserrat, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+Montserrat Medium
+font-family: montserrat, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+
+Montserrat SemiBold
+font-family: montserrat, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+
+Montserrat Bold
+font-family: montserrat, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Montserrat ExtraBold
+font-family: montserrat, sans-serif;
+font-weight: 800;
+font-style: normal;
+
+colors: 
+#97A69A
+#49654E
+*/
+h1, h2, h3, h4 {
+font-family: montserrat, sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+p, h5, h6 {
+font-family: montserrat, sans-serif;
+font-weight: 300;
+font-style: normal; 
+color: #97A69A;
+}
+a {
+font-family: montserrat, sans-serif;
+font-weight: 300;
+font-style: normal;  
+}
+.header li a {
+font-family: montserrat, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+nav {
+height: 200px;
+background: url(./assets/navbg.svg) no-repeat;
+background-size: 650px 200px;
+}
+.bg {
+background: url(./assets/bg.svg) no-repeat;
+background-size: cover;
+}
+.bt {
+font-family: montserrat, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+#bt {
+background: #49654E; 
+color: #fff; 
+border: #49654E solid 1px;
+padding: 10px 63px 10px 63px; 
+border-radius: 7px;
+}
+@keyframes hover {
+    0% {
+        background: #49654E;
+    }
+    100% {
+        background: transparent;
+    }
+}
+#bt:hover {
+background: transparent; 
+color: #49654E; 
+border: #49654E solid 1px;
+animation: hover 1s ease;
+}
+#btt {
+background: transparent; 
+color: #49654E; 
+border: #49654E solid 1px;
+padding: 10px 30px 10px 30px; 
+border-radius: 7px;  
+}
+#btt:hover {
+background: #49654E; 
+color: #fff; 
+border: #49654E solid 1px;
+animation: hovertoo 1s ease;
+}
+@keyframes hovertoo {
+    0% {
+        background:  transparent;
+    }
+    100% {
+        background: #49654E;
+ }
+}   
+.top {
+margin-top: 15rem;
+}
+.more {
+    margin-top: 150px;
+}
+.bgtoo {
+background: url(./assets/bgtoo.svg) no-repeat;
+background-size: fill;
+}
+.seeall {
+color: #97A69A; 
+text-decoration: none;
+}
+.seeall:hover {
+color: #49654E;
+text-decoration: none;
+}
+
+.bgthree {
+background: url(./assets/bgthree.svg) no-repeat;
+background-size: auto;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.three {
+    margin-top: 0;
+}
+
+@media (max-width: 576px) { 
+.three {
+   margin-top: -100px; 
+}
+}
+.bgfour {
+background: url(./assets/bgfour.svg) no-repeat;
+background-size: auto;
+padding-top: 100px;
+padding-bottom: 200px;
+}
+#bttt {
+background: #97A69A; 
+color: #fff; 
+border: none; 
+padding: 10px 40px 10px 40px; 
+border-radius: 7px;
+}
+#bttt:hover {
+background: transparent; 
+color: #97A69A; 
+border: #97A69A solid 1px;
+animation: hoverbt 1s ease;
+}
+@keyframes hoverbt {
+    0% {
+        background:  #97A69A;
+    }
+    100% {
+        background: transparent;
+ }
+}
+.bgfooter {
+background: url(./assets/bgfooter.svg) no-repeat;
+background-size: cover;
+padding-top: 400px;
+}
